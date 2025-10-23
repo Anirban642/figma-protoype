@@ -190,6 +190,8 @@ const Widget = () => {
                 className="flex gap-10 overflow-x-auto overflow-y-hidden py-6 px-4 scrollbar-thin scrollbar-track-[#2E3439] scrollbar-thumb-[#4A4E54]"
                 style={{ scrollBehavior: 'smooth' }}
               >
+
+                {/* done  */}
                 {images.map((src, index) => (
                   <div
                     key={index}
